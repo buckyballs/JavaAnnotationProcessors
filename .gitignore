@@ -24,3 +24,9 @@ nbdist/
 .nb-gradle/
 /mvnw.cmd
 /mvnw
+.gitignore
+.idea/
+annotation-processing/
+annotation-user/
+annotations.iml
+pom.xml
