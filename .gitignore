@@ -10,7 +10,7 @@ target/
 .springBeans
 
 ### IntelliJ IDEA ###
-.idea
+.idea/
 *.iws
 *.iml
 *.ipr
@@ -24,9 +24,3 @@ nbdist/
 .nb-gradle/
 /mvnw.cmd
 /mvnw
-.gitignore
-.idea/
-annotation-processing/
-annotation-user/
-annotations.iml
-pom.xml
