@@ -16,7 +16,7 @@ import java.util.Set;
  * Created by maqsoodi on 5/24/2017.
  */
 @SupportedAnnotationTypes("com.ish.annotation.processor.Immutable")
-@SupportedSourceVersion(SourceVersion.RELEASE_7)
+@SupportedSourceVersion(SourceVersion.RELEASE_8)
 public class SimpleAnnotationProcessor extends AbstractProcessor {
     @Override
     public boolean process(Set<? extends TypeElement> annotations, RoundEnvironment roundEnv) {
