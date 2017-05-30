@@ -37,7 +37,9 @@
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
-
+<!--                    <generatedSourcesDirectory>
+                        src/main/java/com/ish/annotation/generatedsources/
+                    </generatedSourcesDirectory>-->
                     <annotationProcessors>
                         <annotationProcessor>
                             com.ish.annotation.processor.SimpleAnnotationProcessor
@@ -46,7 +48,6 @@
                             com.ish.annotation.processor.BuilderProcessor
                         </annotationProcessor>
                     </annotationProcessors>
-
                 </configuration>
             </plugin>
         </plugins>
