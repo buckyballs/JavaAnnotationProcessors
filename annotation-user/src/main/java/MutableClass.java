@@ -1,7 +1,3 @@
-package com.ish.annotation;
-
-import com.ish.annotation.processor.Immutable;
-
 /**
  * Created by maqsoodi on 5/24/2017.
  */

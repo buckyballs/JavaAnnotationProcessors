@@ -42,10 +42,13 @@
                     </generatedSourcesDirectory>-->
                     <annotationProcessors>
                         <annotationProcessor>
-                            com.ish.annotation.processor.SimpleAnnotationProcessor
+                            SimpleAnnotationProcessor
                         </annotationProcessor>
                         <annotationProcessor>
-                            com.ish.annotation.processor.BuilderProcessor
+                            BuilderProcessor
+                        </annotationProcessor>
+                        <annotationProcessor>
+                            LogProcessor
                         </annotationProcessor>
                     </annotationProcessors>
                 </configuration>

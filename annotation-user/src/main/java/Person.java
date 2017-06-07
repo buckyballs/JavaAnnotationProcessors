@@ -1,7 +1,3 @@
-package com.ish.annotation;
-
-import com.ish.annotation.processor.BuilderProperty;
-
 public class Person {
 
     private int age;

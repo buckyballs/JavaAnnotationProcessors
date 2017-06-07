@@ -1,5 +1,3 @@
-package com.ish.annotation.processor;
-
 import javax.annotation.processing.AbstractProcessor;
 import javax.annotation.processing.RoundEnvironment;
 import javax.annotation.processing.SupportedAnnotationTypes;
@@ -17,7 +15,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-@SupportedAnnotationTypes("com.ish.annotation.processor.BuilderProperty")
+@SupportedAnnotationTypes("BuilderProperty")
 @SupportedSourceVersion(SourceVersion.RELEASE_8)
 public class BuilderProcessor extends AbstractProcessor {
 

@@ -1,5 +1,3 @@
-package com.ish.annotation.processor;
-
 import javax.annotation.processing.AbstractProcessor;
 import javax.annotation.processing.RoundEnvironment;
 import javax.annotation.processing.SupportedAnnotationTypes;
@@ -15,7 +13,7 @@ import java.util.Set;
 /**
  * Created by maqsoodi on 5/24/2017.
  */
-@SupportedAnnotationTypes("com.ish.annotation.processor.Immutable")
+@SupportedAnnotationTypes("Immutable")
 @SupportedSourceVersion(SourceVersion.RELEASE_8)
 public class SimpleAnnotationProcessor extends AbstractProcessor {
     @Override
