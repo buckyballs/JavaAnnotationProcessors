@@ -2,11 +2,11 @@
  * Created by maqsoodi on 5/24/2017.
  */
 @Immutable
-public class MutableClass {
+public class ImmutableClass {
 
     private final String name;
 
-    public MutableClass(String name) {
+    public ImmutableClass(String name) {
         this.name = name;
     }
 

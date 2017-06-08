@@ -1,4 +1,4 @@
-public class Person {
+public class BuilderPropertyClass {
 
     private int age;
 

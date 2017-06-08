@@ -15,11 +15,13 @@ import java.util.Set;
  */
 @SupportedAnnotationTypes("Immutable")
 @SupportedSourceVersion(SourceVersion.RELEASE_8)
-public class SimpleAnnotationProcessor extends AbstractProcessor {
+public class ImmutableProcessor extends AbstractProcessor {
     @Override
     public boolean process(Set<? extends TypeElement> annotations, RoundEnvironment roundEnv) {
 
         for (final Element element : roundEnv.getElementsAnnotatedWith(Immutable.class)) {
+
+            processingEnv.getMessager().printMessage(Diagnostic.Kind.NOTE, "found @Immutable at ", element);
 
             if (element instanceof TypeElement) {
                 final TypeElement typeElement = (TypeElement) element;

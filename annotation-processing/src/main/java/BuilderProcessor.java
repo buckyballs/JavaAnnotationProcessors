@@ -30,6 +30,7 @@ public class BuilderProcessor extends AbstractProcessor {
             List<Element> setters = annotatedMethods.get(true);
             List<Element> otherMethods = annotatedMethods.get(false);
 
+            setters.forEach(element -> processingEnv.getMessager().printMessage(Diagnostic.Kind.NOTE, "found @BuilderProperty at " + element));
             otherMethods.forEach(element -> processingEnv.getMessager().printMessage(Diagnostic.Kind.ERROR, "@BuilderProperty must be applied to a setXxx method with a single argument", element));
 
             if (setters.isEmpty()) {

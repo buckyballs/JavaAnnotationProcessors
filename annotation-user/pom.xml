@@ -37,12 +37,10 @@
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
-<!--                    <generatedSourcesDirectory>
-                        src/main/java/com/ish/annotation/generatedsources/
-                    </generatedSourcesDirectory>-->
+                    <showWarnings>true</showWarnings>
                     <annotationProcessors>
                         <annotationProcessor>
-                            SimpleAnnotationProcessor
+                            ImmutableProcessor
                         </annotationProcessor>
                         <annotationProcessor>
                             BuilderProcessor
