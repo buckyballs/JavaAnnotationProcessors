@@ -2,7 +2,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class BuilderPropertyClassBuilderUnitTest {
+public class BuilderPropertyClassBuilderUnitTestProcessor {
 
     @Test
     public void whenBuildPersonWithBuilder_thenObjectHasPropertyValues() {

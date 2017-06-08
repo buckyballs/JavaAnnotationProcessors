@@ -1,3 +1,5 @@
+package processors;
+
 import javax.annotation.processing.AbstractProcessor;
 import javax.annotation.processing.RoundEnvironment;
 import javax.annotation.processing.SupportedAnnotationTypes;
@@ -15,9 +17,9 @@ import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-@SupportedAnnotationTypes("BuilderProperty")
+@SupportedAnnotationTypes("annotations.BuilderProperty")
 @SupportedSourceVersion(SourceVersion.RELEASE_8)
-public class BuilderProcessor extends AbstractProcessor {
+public class BuilderPropertyProcessor extends AbstractProcessor {
 
     @Override
     public boolean process(Set<? extends TypeElement> annotations, RoundEnvironment roundEnv) {

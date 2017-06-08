@@ -1,3 +1,5 @@
+package processors;
+
 import javax.annotation.processing.AbstractProcessor;
 import javax.annotation.processing.RoundEnvironment;
 import javax.annotation.processing.SupportedAnnotationTypes;
@@ -11,7 +13,7 @@ import java.util.Set;
 /**
  * Created by maqsoodi on 6/7/2017.
  */
-@SupportedAnnotationTypes("Log")
+@SupportedAnnotationTypes("annotations.Log")
 @SupportedSourceVersion(SourceVersion.RELEASE_8)
 public class LogProcessor extends AbstractProcessor {
     @Override

@@ -1,3 +1,5 @@
+import annotations.Log;
+
 /**
  * Created by maqsoodi on 6/7/2017.
  */

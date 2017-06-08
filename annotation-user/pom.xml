@@ -40,13 +40,13 @@
                     <showWarnings>true</showWarnings>
                     <annotationProcessors>
                         <annotationProcessor>
-                            ImmutableProcessor
+                            processors.BuilderPropertyProcessor
                         </annotationProcessor>
                         <annotationProcessor>
-                            BuilderProcessor
+                            processors.ImmutableProcessor
                         </annotationProcessor>
                         <annotationProcessor>
-                            LogProcessor
+                            processors.LogProcessor
                         </annotationProcessor>
                     </annotationProcessors>
                 </configuration>

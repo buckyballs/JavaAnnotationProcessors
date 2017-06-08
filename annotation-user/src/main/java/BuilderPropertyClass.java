@@ -1,3 +1,5 @@
+import annotations.BuilderProperty;
+
 public class BuilderPropertyClass {
 
     private int age;
